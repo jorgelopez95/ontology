@@ -1,0 +1,84 @@
+{
+  "@context" : {
+    "Situation" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation"
+    },
+    "belongsToDistrict" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+      "@type" : "@id"
+    },
+    "hasNameSituation" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameSituation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasNumNeighborhoodSituation" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "belongsToNeighborhood" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+      "@type" : "@id"
+    },
+    "Neighborhood" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Neighborhood"
+    },
+    "District" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#District"
+    },
+    "hasInfixe" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasNameDistrict" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasNameNeighborhood" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasType" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasNumDistrictZone" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Zone" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone"
+    },
+    "hasIdNeighborhood" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdNeighborhood",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasMedNoiseLv" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "hasNumDistrictSituation" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictSituation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasNumNeighborhoodZone" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasIdDistrict" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdDistrict",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasCompleteName" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasNameWithAccent" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasCompleteNameAccent" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}

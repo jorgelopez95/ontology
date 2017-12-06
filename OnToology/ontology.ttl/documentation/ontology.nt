@@ -1,0 +1,126 @@
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict> <http://www.w3.org/2000/01/rdf-schema#range> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#District> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood> <http://www.w3.org/2000/01/rdf-schema#range> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Neighborhood> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteName
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteName> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdDistrict
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdDistrict> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdDistrict> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#District> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdDistrict> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdNeighborhood
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdNeighborhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdNeighborhood> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Neighborhood> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdNeighborhood> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#District> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Neighborhood> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameSituation
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameSituation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameSituation> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameSituation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictSituation
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictSituation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictSituation> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictSituation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType> <http://www.w3.org/2000/01/rdf-schema#domain> <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation> .
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#District
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Neighborhood
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Neighborhood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone
+<htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
