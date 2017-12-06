@@ -1,0 +1,75 @@
+{
+  "@context" : {
+    "Neighbourhood" : {
+      "@id" : "http://dbpedia.org/page/Neighbourhood"
+    },
+    "blankInfoSec" : {
+      "@id" : "http://dbpedia.org/property/blankInfoSec",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "belongsToDistrict" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+      "@type" : "@id"
+    },
+    "hasNumNeighborhoodSituation" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "belongsToNeighborhood" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInfixe" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Districts_of_Madrid" : {
+      "@id" : "http://dbpedia.org/page/Districts_of_Madrid"
+    },
+    "Street" : {
+      "@id" : "http://dbpedia.org/ontology/Street"
+    },
+    "hasType" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Zone" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone"
+    },
+    "hasIdNeighborhood" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdNeighborhood",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasMedNoiseLv" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "hasNumNeighborhoodZone" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "SpatialThing" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"
+    },
+    "hasIdDistrict" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdDistrict",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasCompleteName" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasNameWithAccent" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasCompleteNameAccent" : {
+      "@id" : "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}

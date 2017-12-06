@@ -1,0 +1,20 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "http://dbpedia.org/page/Neighbourhood" "http://dbpedia.org/page/Districts_of_Madrid" "http://dbpedia.org/ontology/Street" "base:Zone" ; /*classes style*/
+	"http://dbpedia.org/page/Districts_of_Madrid" -> "xsd:string" [ label = "base:hasIdDistrict" ];
+	"http://dbpedia.org/ontology/Street" -> "xsd:string" [ label = "base:hasCompleteName" ];
+	"http://dbpedia.org/ontology/Street" -> "xsd:string" [ label = "base:hasNameWithAccent" ];
+	"base:Zone" -> "http://dbpedia.org/page/Districts_of_Madrid" [ label = "base:belongsToDistrict" ];
+	"base:Zone" -> "xsd:decimal" [ label = "base:hasMedNoiseLv" ];
+	"http://dbpedia.org/page/Neighbourhood" -> "xsd:string" [ label = "base:hasIdNeighborhood" ];
+	"http://dbpedia.org/ontology/Street" -> "xsd:string" [ label = "base:hasInfixe" ];
+	"http://dbpedia.org/ontology/Street" -> "xsd:string" [ label = "base:hasType" ];
+	"base:Zone" -> "xsd:string" [ label = "http://dbpedia.org/property/blankInfoSec" ];
+	"http://dbpedia.org/ontology/Street" -> "xsd:string" [ label = "base:hasNumNeighborhoodSituation" ];
+	"base:Zone" -> "http://dbpedia.org/page/Neighbourhood" [ label = "base:belongsToNeighborhood" ];
+	"http://dbpedia.org/ontology/Street" -> "xsd:string" [ label = "base:hasCompleteNameAccent" ];
+	"http://dbpedia.org/ontology/Street" -> "xsd:string" [ label = "rdfs:label" ];
+	"base:Zone" -> "xsd:string" [ label = "base:hasNumNeighborhoodZone" ];
+
+}
