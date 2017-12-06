@@ -1,0 +1,23 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Zone" "base:Situation" "base:Neighborhood" "base:District" ; /*classes style*/
+	"base:District" -> "xsd:string" [ label = "base:hasIdDistrict" ];
+	"base:Situation" -> "xsd:string" [ label = "base:hasCompleteName" ];
+	"base:Situation" -> "xsd:string" [ label = "base:hasNameWithAccent" ];
+	"base:Zone" -> "base:District" [ label = "base:belongsToDistrict" ];
+	"base:District" -> "xsd:string" [ label = "base:hasNameDistrict" ];
+	"base:Zone" -> "xsd:decimal" [ label = "base:hasMedNoiseLv" ];
+	"base:Neighborhood" -> "xsd:string" [ label = "base:hasIdNeighborhood" ];
+	"base:Zone" -> "xsd:string" [ label = "base:hasNumDistrictZone" ];
+	"base:Situation" -> "xsd:string" [ label = "base:hasInfixe" ];
+	"base:Situation" -> "xsd:string" [ label = "base:hasType" ];
+	"base:Situation" -> "xsd:string" [ label = "base:hasNameSituation" ];
+	"base:Neighborhood" -> "xsd:string" [ label = "base:hasNameNeighborhood" ];
+	"base:Situation" -> "xsd:string" [ label = "base:hasNumDistrictSituation" ];
+	"base:Situation" -> "xsd:string" [ label = "base:hasNumNeighborhoodSituation" ];
+	"base:Zone" -> "base:Neighborhood" [ label = "base:belongsToNeighborhood" ];
+	"base:Situation" -> "xsd:string" [ label = "base:hasCompleteNameAccent" ];
+	"base:Zone" -> "xsd:string" [ label = "base:hasNumNeighborhoodZone" ];
+
+}
