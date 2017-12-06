@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+     xml:base="htpp://www.contaminacion-acustica-madrid.org/group10/ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="htpp://www.contaminacion-acustica-madrid.org/group10/ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict -->
+
+
+    <owl:ObjectProperty rdf:about="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict">
+        <rdfs:domain rdf:resource="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/page/Districts_of_Madrid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood -->
+
+
+    <owl:ObjectProperty rdf:about="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood">
+        <rdfs:domain rdf:resource="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/page/Neighbourhood"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteName -->
+
+
+    <owl:DatatypeProperty rdf:about="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteName">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Street"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent -->
+
+
+    <owl:DatatypeProperty rdf:about="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Street"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdDistrict -->
+
+
+    <owl:DatatypeProperty rdf:about="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdDistrict">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Districts_of_Madrid"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdNeighborhood -->
+
+
+    <owl:DatatypeProperty rdf:about="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdNeighborhood">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Neighbourhood"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe -->
+
+
+    <owl:DatatypeProperty rdf:about="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Street"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv -->
+
+
+    <owl:DatatypeProperty rdf:about="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv">
+        <rdfs:domain rdf:resource="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent -->
+
+
+    <owl:DatatypeProperty rdf:about="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Street"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation -->
+
+
+    <owl:DatatypeProperty rdf:about="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Street"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone -->
+
+
+    <owl:DatatypeProperty rdf:about="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone">
+        <rdfs:domain rdf:resource="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType -->
+
+
+    <owl:DatatypeProperty rdf:about="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Street"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://dbpedia.org/property/blankInfoSec -->
+
+
+    <owl:DatatypeProperty rdf:about="http://dbpedia.org/property/blankInfoSec">
+        <rdfs:domain rdf:resource="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Street"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Districts_of_Madrid"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Street"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Districts_of_Madrid"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Neighbourhood"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone -->
+
+
+    <owl:Class rdf:about="htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Street -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Street">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/page/Districts_of_Madrid -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/page/Districts_of_Madrid"/>
+    
+
+
+    <!-- http://dbpedia.org/page/Neighbourhood -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/page/Neighbourhood"/>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

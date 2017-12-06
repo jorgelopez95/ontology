@@ -1,0 +1,8 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" "http://dbpedia.org/ontology/Street" "base:Zone" ; /*classes style*/
+	"base:Zone" -> "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" [ label = "rdfs:subClassOf" ];
+	"http://dbpedia.org/ontology/Street" -> "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" [ label = "rdfs:subClassOf" ];
+
+}
